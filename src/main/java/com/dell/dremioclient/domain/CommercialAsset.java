@@ -30,10 +30,10 @@ public class CommercialAsset implements Serializable {
 	@Column(name = "ASSET_ID")
 	private String assetId;
 	
-	@Column(name = "ACCNT_ID")
+	@Column(name = "ACCOUNT_ID")
 	private Long accountId;
 	
-	@Column(name = "ACCNT_NAME")
+	@Column(name = "ACCOUNT_NAME")
 	private String accntName;
 	
 	@Column(name = "SITE_ID")
@@ -51,12 +51,12 @@ public class CommercialAsset implements Serializable {
 	@Column(name = "WARRANTY_CODE")
 	private String warrantyCode;
 	
-	@Column(name = "WARRANTY_DESC")
+	@Column(name = "WARRANTY_DESCRIPTION")
 	private String warrantyDesc;
 	
-	@Column(name = "CNTRCT_END_DATE_GMT")
+	@Column(name = "CONTRACT_END_DATE")
 	private Date expiryDate;
 
-	@Column(name = "SAC_VERSION")
+	@Column(name = "SA_VERSION")
 	private String sacVersion;
 }
